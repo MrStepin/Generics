@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Generics
 {
-    class Program
+    public class Pair <T>
     {
-        static void Main(string[] args)
-        {
-
-        }
+        public T First { get; set; }
+        public T Second { get; set; }
     }
 }
